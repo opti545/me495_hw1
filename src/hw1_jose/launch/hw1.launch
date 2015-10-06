@@ -4,7 +4,6 @@
   <node name="jose_hw1_node" pkg="hw1_jose" type="hw1_j.py" required="true" output="screen">
   	<param name="t_seconds" type="int" value="$(arg t_param)" />
   </node>
-
   <node name="turtlesim_node" type="turtlesim_node" pkg="turtlesim" required="true" />
-
+  <node name="record_bag" pkg="rosbag" type="record" args="/turtle1/cmd_vel -O /home/josmiranda/ros/src/hw1_jose/bags/miranda_jose.bag" />
 </launch>
