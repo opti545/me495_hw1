@@ -1,0 +1,10 @@
+<launch>
+<arg name="t_param" default="10" />
+
+  <node name="jose_hw1_node" pkg="hw1_jose" type="hw1_j.py" required="true" output="screen">
+  	<param name="t_seconds" type="int" value="$(arg t_param)" />
+  </node>
+
+  <node name="turtlesim_node" type="turtlesim_node" pkg="turtlesim" required="true" />
+
+</launch>

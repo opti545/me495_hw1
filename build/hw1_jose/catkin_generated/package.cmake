@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "hw1_jose")
+set(hw1_jose_MAINTAINER "josmiranda <josmiranda@todo.todo>")
+set(hw1_jose_DEPRECATED "")
+set(hw1_jose_VERSION "0.0.0")
+set(hw1_jose_BUILD_DEPENDS "rospy" "turtlesim" "geometry_msgs")
+set(hw1_jose_RUN_DEPENDS "rospy" "turtlesim" "geometry_msgs")
+set(hw1_jose_BUILDTOOL_DEPENDS "catkin")

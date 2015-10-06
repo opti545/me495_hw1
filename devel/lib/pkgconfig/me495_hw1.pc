@@ -1,0 +1,8 @@
+prefix=/home/josmiranda/ros/devel
+
+Name: me495_hw1
+Description: Description of me495_hw1
+Version: 1.0.0
+Cflags: -I/home/josmiranda/ros/devel/include
+Libs: -L/home/josmiranda/ros/devel/lib 
+Requires: 

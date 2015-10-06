@@ -1,0 +1,8 @@
+prefix=/home/josmiranda/ros/install
+
+Name: hw1_jose
+Description: Description of hw1_jose
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/josmiranda/ros/install/lib 
+Requires: 
